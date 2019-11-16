@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<title>Risk Calculator</title>
+	
+    <link rel="stylesheet" href="calc.css">
+<html>
+	<head></head>
+	<body>
+		<h1>Risk Calculator</h1>
+		<p>What is the annualized loss of expectancy (ALE) for a specific risk?</p>
+		
+		<form id="ALEcalculatorForm">
+			
+			<input type="text" placeholder="Enter the AV" id="AV"> is the asset value (AV) in euros
+			<br><br>
+			
+			<input type="text" placeholder="Enter the EF" id="EF"> is the % of exposure factor (EF)
+			<br><br>
+			
+			<input type="text" placeholder="Enter the ARO" id="ARO"> is the annual rate of ocurrence (ARO) rate
+			<br><br>
+			
+			<input type="submit" value = "Calculate the ALE">
+			
+		</form>
+		
+		<h3 id="ALE"></h3>
+		
+		<script type="text/javascript" src="Risk_calculator_javascript/calc.js"></script>
+		
+	</body>
+</html>
